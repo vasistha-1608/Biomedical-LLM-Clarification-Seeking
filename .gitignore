@@ -1,0 +1,11 @@
+# Ignore the extracted EBM-NLP data folder
+ebm_nlp_data/
+
+# Ignore the downloaded tarball (just in case the script fails before deleting it)
+ebm_nlp_2_00.tar.gz
+*.json
+# Standard Python ignores (good practice)
+__pycache__/
+*.pyc
+.venv/
+env/
