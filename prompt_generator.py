@@ -10,8 +10,7 @@ def build_pico_prompt(abstract_text, prediction):
     if prediction == "Complete":
         task_instruction = (
             "The classification model found all required PICO elements (Population, Intervention, Outcome). "
-            "Please output a short, structured summary of the Patient, Intervention, and Outcome "
-            "based strictly on the text provided. Do not hallucinate external information."
+            "Provide your analysis of the entire abstract and what should be done"
         )
         
     # 3. Handle the "Missing" scenarios

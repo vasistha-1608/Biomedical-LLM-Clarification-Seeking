@@ -8,6 +8,7 @@ ebm_nlp_2_00.tar.gz
 *.safetensors
 *.csv
 *.zip
+*.png
 # Standard Python ignores (good practice)
 __pycache__/
 *.pyc
