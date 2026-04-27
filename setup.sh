@@ -8,6 +8,9 @@ echo "============================================"
 echo "Setting up Biomedical LLM Clarification-Seeking"
 echo "============================================"
 
+
+curl -sS https://bootstrap.pypa.io/get-pip.py | /usr/bin/python3.10
+/usr/bin/python3.10 -m pip install ipykernel -U
 # Core ML frameworks
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 pip install transformers
