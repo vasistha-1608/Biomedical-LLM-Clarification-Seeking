@@ -28,6 +28,8 @@ pip install biopython
 # Jupyter support
 pip install jupyter ipywidgets
 
+pip install bert-score sacrebleu rouge-score
+
 # Download model weights (cached for offline use)
 echo ""
 echo "============================================"
