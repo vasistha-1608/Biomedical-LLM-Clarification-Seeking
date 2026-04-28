@@ -5,6 +5,8 @@ ebm_nlp_data/
 ebm_nlp_2_00.tar.gz
 *.json
 !ebm_nlp_ground_truth.json
+!ebm_nlp_test_mixed.json
+!ebm_nlp_train_mixed.json
 *.pt
 *.safetensors
 *.csv
