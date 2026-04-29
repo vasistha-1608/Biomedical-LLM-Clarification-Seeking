@@ -1,0 +1,24 @@
+{
+  "test_size": 189,
+  "bertscore": {
+    "precision": 0.7508205771446228,
+    "recall": 0.7144424915313721,
+    "f1": 0.7269599437713623
+  },
+  "rouge": {
+    "rouge1": 0.49048628409775347,
+    "rouge2": 0.32195239278482934,
+    "rougeL": 0.4586323437433748
+  },
+  "bleu": 23.093059392927948,
+  "question_analysis": {
+    "generated_questions_pct": 52.910052910052904,
+    "reference_questions_pct": 45.5026455026455,
+    "generated_questions_count": 100,
+    "reference_questions_count": 86,
+    "bertscore_f1_when_generated_is_question": 0.682556980252266,
+    "bertscore_f1_when_generated_is_statement": 0.776850968934177,
+    "bertscore_f1_when_reference_is_question": 0.6983231229837551,
+    "bertscore_f1_when_reference_is_statement": 0.7508703464443244
+  }
+}

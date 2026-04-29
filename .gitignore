@@ -7,9 +7,16 @@ ebm_nlp_2_00.tar.gz
 !ebm_nlp_ground_truth.json
 !ebm_nlp_test_mixed.json
 !ebm_nlp_train_mixed.json
+!silver_labels_checkpoint.json
+!silver_labels_test.json
+!silver_labels_train.json
+!flan_t5_pico_evaluation.json
 *.pt
 *.safetensors
 *.csv
+!flan_t5_pico_test_results.csv
+*.pth
+*.bin
 *.zip
 *.png
 vocab.txt
